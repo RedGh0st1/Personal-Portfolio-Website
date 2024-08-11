@@ -5,9 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div className="App_containter">
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
       <RouteProvider />
     </div>
   );
