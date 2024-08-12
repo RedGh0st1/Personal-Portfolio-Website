@@ -12,22 +12,21 @@ export default function Hero() {
       <div className="hero-content-box">
         {/* This div contains the hero content */}
         <div className="hero-content">
-          <p className="section-title">Hi, I'm Lennie </p>
+          <p className="section-title">Hi, I'm Lennie</p>
           <h1 className="hero-section-title">
             <span className="hero-title-color">
-              Full Stack <br /> Developer
+              Full Stack Developer <br />
             </span>{" "}
-            <br />
-            DevOps Engineer <br />
+            DevOps Engineer
           </h1>
           <p className="hero-description">
             I'm a full stack web developer with a passion for creating beautiful
             and functional websites. I'm always looking for new challenges and
-            opportunities to grow as a developer. <br />
+            opportunities to grow as a developer.
           </p>
-          <button className="hero-button">Get In Touch</button>
-          {/* This button will take the user to the specific section of the website */}
         </div>
+        {/* This button will take the user to the specific section of the website */}
+        <button className="hero-button">Get In Touch</button>
       </div>
       {/* This div contains the hero picture of the developer */}
       <div className="hero-pic">

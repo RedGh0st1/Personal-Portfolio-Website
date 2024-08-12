@@ -5,7 +5,7 @@
   padding: 133.333px, 85.333px, 133.333px;
   align-items: center;
   justify-content: space-between;
-  gap: 25px;
+  gap: 32px;
 }
 
 .hero-content-box {
@@ -24,9 +24,9 @@
 
 .hero-section-title {
   color: var(--heading-color);
-  font-size: 50px;
+  font-size: 47px;
   font-weight: 700;
-  line-height: 55px;
+  line-height: 50px;
   align-self: stretch;
 }
 
@@ -46,6 +46,6 @@
 }
 
 .hero-pic > img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto; /* maintain aspect ratio */
 }
