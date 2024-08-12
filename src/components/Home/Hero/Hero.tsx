@@ -26,7 +26,7 @@ export default function Hero() {
             opportunities to grow as a developer. <br />
           </p>
           <button className="hero-button">Get In Touch</button>
-          {/* This button will take the user to the projects section of the website */}
+          {/* This button will take the user to the specific section of the website */}
         </div>
       </div>
       {/* This div contains the hero picture of the developer */}
