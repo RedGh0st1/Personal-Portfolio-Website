@@ -6,20 +6,32 @@ import "./Hero.css";
 export default function Hero() {
   return (
     <section id="heroSection" className="hero-section-container">
+      {/* This div contains the hero content */}
+      {/* The hero content includes the title, description, and a button */}
+      {/* The hero content is centered using flexbox */}
       <div className="hero-content-box">
+        {/* This div contains the hero content */}
         <div className="hero-content">
-          <p className="hero-section-title">Hi, I'm Lennie</p>
+          <p className="section-title">Hi, I'm Lennie </p>
           <h1 className="hero-section-title">
-            <span className="hero-title-color">Full Stack </span> <br />
-            Developer
+            <span className="hero-title-color">
+              Full Stack <br /> Developer
+            </span>{" "}
+            <br />
+            DevOps Engineer <br />
           </h1>
           <p className="hero-description">
-            I'm a full stack developer with a passion for creating beautiful and
-            functional websites.
-            <br /> I'm always looking for new challenges and opportunities to
-            grow as a developer.
+            I'm a full stack web developer with a passion for creating beautiful
+            and functional websites. I'm always looking for new challenges and
+            opportunities to grow as a developer. <br />
           </p>
+          <button className="hero-button">Get In Touch</button>
+          {/* This button will take the user to the projects section of the website */}
         </div>
+      </div>
+      {/* This div contains the hero picture of the developer */}
+      <div className="hero-pic">
+        <img src="./public/img/Avatar.png" alt="Developer pic" />
       </div>
     </section>
   );

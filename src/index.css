@@ -1,8 +1,10 @@
 :root {
-}
-
-* {
-  background-color: white;
+  --primary: #ee943b;
+  --heading-color: #282938;
+  --bg-shade: #f5fcff;
+  --darkblue: #1c1e53;
+  --black: #000000;
+  --white: #ffffff;
 }
 
 body {
@@ -11,10 +13,75 @@ body {
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
   margin: 0;
-  /* border-radius: 10px solid red;
-  display: grid; */
 }
 
-.hello {
-  color: rgb(0, 21, 255);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* heading #1 */
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+/* heading #2 */
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+/* heading #3 */
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+/* paragraphs */
+/* Body 1 */
+.text-lrg {
+  color: var(--darkblue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* Body 2 */
+.text-med {
+  color: var(--darkblack);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Body 3 */
+.text-sm {
+  color: var(--darkblack);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+/* each section title, skills, projects, about  */
+.section-title {
+  color: var(--heading-color);
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-start;
 }
