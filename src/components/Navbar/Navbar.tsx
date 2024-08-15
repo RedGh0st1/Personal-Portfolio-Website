@@ -55,26 +55,100 @@ export default function Navbar() {
         <span className="nav_hamburger_line"></span>
         <span className="nav_hamburger_line"></span>
       </a>
-      <ul className={`nav_menu ${isMenuOpen ? "active" : ""}`}>
-        <li>
-          <Link onClick={closeMenu}>Home</Link>
-        </li>
-        <li>
-          <Link onClick={closeMenu}>About</Link>
-        </li>
-        <li>
-          <Link onClick={closeMenu}>Skills</Link>
-        </li>
-        <li>
-          <Link onClick={closeMenu}>Projects</Link>
-        </li>
-        <li>
-          <Link onClick={closeMenu}>Blog</Link>
-        </li>
-        <li>
-          <Link onClick={closeMenu}>Contact</Link>
-        </li>
-      </ul>
+      <div className={`nav_menu ${isMenuOpen ? "active" : ""}`}>
+        <ul>
+          <li>
+            <Link
+              onClick={closeMenu}
+              // This sets a class name (navbar--active-content) that will be applied to the link when the target section it scrolls to is in view.
+              // This is often used to style the active link differently from the others, indicating which section of the page is currently being viewed.
+              activeClass="navbar--active-content"
+              // The spy prop is a boolean that, when set to true, makes the <Link> component “spy” on the scroll position
+              spy={true}
+              // The smooth prop, when set to true, enables smooth scrolling when the link is clicked
+              smooth={true}
+              // The offset prop allows you to adjust the final scroll position
+              offset={-70}
+              // The duration prop sets the time it takes to scroll to the target section in milliseconds.
+              duration={500}
+              // The to prop specifies the ID of the section the link should scroll to
+              to="heroSection"
+              className="navbar--content"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass=""
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="aboutSection"
+              className="navbar--content"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass=""
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="skillSection"
+              className="navbar--content"
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass=""
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="projectsSection"
+              className="navbar--content"
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass=""
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="projectsSection"
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass=""
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="projectsSection"
+              className="navbar--content"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }
