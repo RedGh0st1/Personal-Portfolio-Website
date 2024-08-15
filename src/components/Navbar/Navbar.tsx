@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import "./Navbar.css";
 
 export default function Navbar() {
   // State to manage the menu open/close state
