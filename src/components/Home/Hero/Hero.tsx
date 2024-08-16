@@ -1,9 +1,11 @@
+import React from "react";
 import "./Hero.css";
 // Hero component
 // This component renders the hero section of the website
 // It contains the hero title, description, and a button to view my work
 
-export default function Hero() {
+const Hero: React.FC = () => {
+  console.log("Hero component rendered");
   return (
     <section id="heroSection" className="hero-section-container">
       {/* This div contains the hero content */}
@@ -34,4 +36,6 @@ export default function Hero() {
       </div>
     </section>
   );
-}
+};
+
+export default Hero;

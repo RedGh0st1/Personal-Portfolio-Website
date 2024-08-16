@@ -1,4 +1,7 @@
-export default function About() {
+import Skills from "../Skills/Skills";
+import Github from "../About/Github/Github";
+
+const About: React.FC = () => {
   return (
     <section id="about" className="about-section-container">
       <div className="about-section-img">
@@ -7,7 +10,7 @@ export default function About() {
       <div className="about-section-content-box">
         <div className="about-section-content">
           <p className="section-title">About</p>
-          <h1 className="skill-section-heading">About Me</h1>
+          <h2 className="skill-section-heading">About Me</h2>
           <p className="hero-description">
             I'm a software developer with a passion for creating innovative and
             user-friendly applications. With a background in computer science
@@ -21,6 +24,10 @@ export default function About() {
           </p>
         </div>
       </div>
+      <Skills />
+      <Github />
     </section>
   );
-}
+};
+
+export default About;

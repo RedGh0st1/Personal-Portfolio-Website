@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "../Pages/HomePage/HomePage";
 import BlogPage from "../Pages/BlogPage/BlogPage";
 
-export default function RouteProvider() {
+const RouteProvider: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -10,4 +10,5 @@ export default function RouteProvider() {
       <Route path="*" element={<div> 404 Not Found!!!</div>} />
     </Routes>
   );
-}
+};
+export default RouteProvider;

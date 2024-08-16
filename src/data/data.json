@@ -1,0 +1,69 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "title": "HTML",
+      "src": "https://icons8.com/icons/set/html-logo"
+    },
+    {
+      "id": "2",
+      "name": "CSS",
+      "src": "https://icons8.com/icons/set/css-logo"
+    },
+    {
+      "id": "3",
+      "name": "JavaScript",
+      "src": "https://icons8.com/icons/set/javascript-logo"
+    },
+    {
+      "id": "4",
+      "name": "React",
+      "src": "https://icons8.com/icons/set/react-logo"
+    },
+    {
+      "id": "5",
+      "name": "Node.js",
+      "src": "https://icons8.com/icons/set/node-js-logo"
+    },
+    {
+      "id": "6",
+      "name": "Python",
+      "src": "https://icons8.com/icons/set/python-logo"
+    },
+    {
+      "id": "7",
+      "name": "Git",
+      "src": "https://icons8.com/icons/set/git-logo"
+    },
+    {
+      "id": "8",
+      "name": "GitHub",
+      "src": "https://icons8.com/icons/set/github-logo"
+    },
+    {
+      "id": "9",
+      "name": "Express js",
+      "src": "https://icons8.com/icons/set/express-js-logo"
+    },
+    {
+      "id": "10",
+      "name": "figma",
+      "src": "https://icons8.com/icons/set/figma-logo"
+    },
+    {
+      "id": "11",
+      "name": "PostgreSQl",
+      "src": "https://icons8.com/icons/set/postgresql-logo"
+    },
+    {
+      "id": "12",
+      "name": "Typescript",
+      "src": "https://icons8.com/icons/set/typescript-logo"
+    },
+    {
+      "id": "13",
+      "name": "Bash",
+      "src": "https://icons8.com/icons/set/bash-logo"
+    }
+  ]
+}

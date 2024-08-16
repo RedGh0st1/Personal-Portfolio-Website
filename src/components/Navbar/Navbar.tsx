@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "./Navbar.css";
 
-export default function Navbar() {
+const Navbar: React.FC = () => {
   // State to manage the menu open/close state
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -20,7 +20,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu;
+        closeMenu();
       }
     };
 
@@ -35,7 +35,7 @@ export default function Navbar() {
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
-      closeMenu;
+      closeMenu();
     }
   }, []);
 
@@ -50,7 +50,7 @@ export default function Navbar() {
       </div>
       <a
         className={`nav_hamburger ${isMenuOpen ? "active" : ""}`}
-        onDoubleClick={toggleMenu}
+        onClick={toggleMenu}
       >
         {" "}
         <span className="nav_hamburger_line"></span>
@@ -154,4 +154,5 @@ export default function Navbar() {
       </div>
     </nav>
   );
-}
+};
+export default Navbar;
