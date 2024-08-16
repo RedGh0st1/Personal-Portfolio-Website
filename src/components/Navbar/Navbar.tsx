@@ -19,7 +19,7 @@ export default function Navbar() {
   // Effect to handle window resize and close the menu on larger screens
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 768 && isMenuOpen) {
+      if (window.innerWidth <= 500) {
         closeMenu;
       }
     };
@@ -45,6 +45,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${isMenuOpen ? "active" : ""}`}>
       <div className="logo">
+        {/* //need a logo here */}
         <img src="" className="red-ghost-log" alt="RedGhost" />
       </div>
       <a
@@ -74,7 +75,7 @@ export default function Navbar() {
               duration={500}
               // The to prop specifies the ID of the section the link should scroll to
               to="heroSection"
-              className="navbar--content"
+              className="navbar-content"
             >
               Home
             </Link>
@@ -88,7 +89,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               to="aboutSection"
-              className="navbar--content"
+              className="navbar-content"
             >
               About
             </Link>
@@ -102,7 +103,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               to="skillSection"
-              className="navbar--content"
+              className="navbar-content"
             >
               Skills
             </Link>
@@ -116,7 +117,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               to="projectsSection"
-              className="navbar--content"
+              className="navbar-content"
             >
               Projects
             </Link>
@@ -130,8 +131,9 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               to="projectsSection"
+              className="navbar-content"
             >
-              Blog
+              Blogs
             </Link>
           </li>
           <li>
@@ -143,7 +145,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               to="projectsSection"
-              className="navbar--content"
+              className="btn-btn-outline-primary"
             >
               Contact
             </Link>

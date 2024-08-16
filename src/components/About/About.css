@@ -1,0 +1,15 @@
+.about {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21.333px;
+}
+
+.about-section-img {
+}

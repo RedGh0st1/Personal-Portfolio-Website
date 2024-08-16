@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 80px;
+  padding: 15px 85.333px;
   background-color: var(--white);
   position: fixed;
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
@@ -14,6 +14,20 @@
 .nav_menu > ul {
   display: flex;
   list-style: none;
-  align-items: start;
+  align-items: flex-start;
   gap: 35px;
+  text-decoration: none;
+}
+
+.navbar_menu > ul > li > a {
+  text-decoration: none;
+}
+
+.navbar-content {
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
 }
