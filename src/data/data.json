@@ -3,67 +3,107 @@
     {
       "id": "1",
       "title": "HTML",
-      "src": "https://icons8.com/icons/set/html-logo"
+      "src": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
     {
       "id": "2",
-      "name": "CSS",
-      "src": "https://icons8.com/icons/set/css-logo"
+      "title": "CSS",
+      "src": "https://img.icons8.com/color/48/000000/css3.png"
     },
     {
       "id": "3",
-      "name": "JavaScript",
-      "src": "https://icons8.com/icons/set/javascript-logo"
+      "title": "JavaScript",
+      "src": "https://img.icons8.com/color/48/000000/javascript.png"
     },
     {
       "id": "4",
-      "name": "React",
-      "src": "https://icons8.com/icons/set/react-logo"
+      "title": "React",
+      "src": "https://img.icons8.com/color/48/000000/react-native.png"
     },
     {
       "id": "5",
-      "name": "Node.js",
-      "src": "https://icons8.com/icons/set/node-js-logo"
+      "title": "Node.js",
+      "src": "https://img.icons8.com/color/48/000000/nodejs.png"
     },
     {
       "id": "6",
-      "name": "Python",
-      "src": "https://icons8.com/icons/set/python-logo"
+      "title": "Python",
+      "src": "https://img.icons8.com/color/48/000000/python.png"
     },
     {
       "id": "7",
-      "name": "Git",
-      "src": "https://icons8.com/icons/set/git-logo"
+      "title": "Git",
+      "src": "https://img.icons8.com/color/48/000000/git.png"
     },
     {
       "id": "8",
-      "name": "GitHub",
-      "src": "https://icons8.com/icons/set/github-logo"
+      "title": "GitHub",
+      "src": "https://img.icons8.com/color/48/000000/github.png"
     },
     {
       "id": "9",
-      "name": "Express js",
-      "src": "https://icons8.com/icons/set/express-js-logo"
+      "title": "Express js",
+      "src": "https://img.icons8.com/color/48/000000/express-js.png"
     },
     {
       "id": "10",
-      "name": "figma",
-      "src": "https://icons8.com/icons/set/figma-logo"
+      "title": "figma",
+      "src": "https://img.icons8.com/color/48/000000/figma--v1.png"
     },
     {
       "id": "11",
-      "name": "PostgreSQl",
-      "src": "https://icons8.com/icons/set/postgresql-logo"
+      "title": "PostgreSQl",
+      "src": "https://img.icons8.com/color/48/000000/postgreesql.png"
     },
     {
       "id": "12",
-      "name": "Typescript",
-      "src": "https://icons8.com/icons/set/typescript-logo"
+      "title": "Typescript",
+      "src": "https://img.icons8.com/color/48/000000/typescript.png"
     },
     {
       "id": "13",
-      "name": "Bash",
-      "src": "https://icons8.com/icons/set/bash-logo"
+      "title": "Bash",
+      "src": "https://img.icons8.com/color/48/000000/bash.png"
+    },
+    {
+      "id": "14",
+      "title": "Docker",
+      "src": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
+      "id": "15",
+      "title": "Jest",
+      "src": "https://img.icons8.com/color/48/000000/test-tube.png"
+    },
+    {
+      "id": "16",
+      "title": "Linux",
+      "src": "https://img.icons8.com/color/48/000000/linux.png"
+    },
+    {
+      "id": "17",
+      "title": "Nginx",
+      "src": "https://img.icons8.com/color/48/000000/nginx.png"
+    },
+    {
+      "id": "18",
+      "title": "Terraform",
+      "src": "https://img.icons8.com/color/48/000000/terraform.png"
+    },
+    {
+      "id": "19",
+      "title": "Npm",
+      "src": "https://img.icons8.com/color/48/000000/npm.png"
+    },
+    {
+      "id": "20",
+      "title": "aws",
+      "src": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+      "id": "21",
+      "title": "Go",
+      "src": "https://img.icons8.com/color/48/000000/golang.png"
     }
   ]
 }
