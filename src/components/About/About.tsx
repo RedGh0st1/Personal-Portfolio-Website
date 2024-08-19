@@ -1,4 +1,3 @@
-import Skills from "../Skills/Skills";
 import Github from "../About/Github/Github";
 
 const About: React.FC = () => {
@@ -24,7 +23,6 @@ const About: React.FC = () => {
           </p>
         </div>
       </div>
-      <Skills />
       <Github />
     </section>
   );

@@ -76,7 +76,7 @@ h2 {
 
 /* each section title, skills, projects, about  */
 .section-title {
-  color: var(--heading-color);
+  color: var(--primary);
   font-size: 21px;
   text-align: center;
   justify-content: center;

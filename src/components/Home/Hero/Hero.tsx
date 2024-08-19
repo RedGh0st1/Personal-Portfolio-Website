@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
             <span className="hero-title-color">
               Full Stack Developer <br />
             </span>{" "}
-            DevOps Engineer
+            <strong className="word">DevOps</strong> Engineer
           </h1>
           <p className="hero-description">
             I'm a full stack web developer with a passion for creating beautiful
