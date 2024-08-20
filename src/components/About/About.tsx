@@ -1,14 +1,15 @@
 import Github from "../About/Github/Github";
+import "./About.css";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="about-section-container">
-      <div className="about-section-img">
+    <section id="about" className="about--section--container">
+      <div className="about--section--img">
         <img src="/images/About.png" alt="About Image" />
       </div>
       <div className="about-section-content-box">
         <div className="about-section-content">
-          <p className="section-title">About</p>
+          <p className="section--title">About</p>
           <h2 className="skill-section-heading">About Me</h2>
           <p className="hero-description">
             I'm a software developer with a passion for creating innovative and

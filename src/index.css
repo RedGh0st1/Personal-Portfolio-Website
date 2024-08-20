@@ -1,5 +1,5 @@
 :root {
-  --primary: #f07a13;
+  --primary: #f06413;
   --heading-color: #282938;
   --bg-shade: #f5fcff;
   --darkblue: #1c1e53;
@@ -75,7 +75,7 @@ h2 {
 }
 
 /* each section title, skills, projects, about  */
-.section-title {
+.section--title {
   color: var(--primary);
   font-size: 21px;
   text-align: center;

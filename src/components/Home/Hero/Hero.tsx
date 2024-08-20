@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
       <div className="hero-content-box">
         {/* This div contains the hero content */}
         <div className="hero-content">
-          <p className="section-title">Hi!! I'm Lennie Nurse</p>
+          <p className="section--title">Hi!! I'm Lennie Nurse</p>
           <h1 className="hero-section-title">
             <span className="hero-title-color">
               Full Stack Developer <br />
