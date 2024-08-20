@@ -1,14 +1,21 @@
 .about--section--container {
-  display: grid;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 114.6px;
   grid-template-columns: repeat(4, 1fr);
   padding: 133.3px 85.3px;
-  background-color: yellowgreen;
+  background-color: var(--white);
 }
 
 .about--section--img > img {
   width: 100%;
   height: 100%;
+}
+
+.about--section--heading {
+  display: grid;
+  padding: 10px;
+  flex-direction: column;
+  align-items: start;
 }

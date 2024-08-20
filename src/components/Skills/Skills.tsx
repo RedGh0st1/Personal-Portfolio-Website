@@ -22,9 +22,6 @@ const Skills: React.FC = () => {
 
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{skill.title}</h3>
-              <p className="skills--section--description">
-                {skill.description}
-              </p>
             </div>
           </div>
         ))}
