@@ -1,5 +1,5 @@
 import "./WebProjectCard.css";
-
+import { Project } from "../Projects";
 const WebProjectCard: React.FC<{ project: Project }> = ({ project }) => (
   <section id="webprojectcard" className="webprojectcard--section">
     <div className="webprojectcard--container">
