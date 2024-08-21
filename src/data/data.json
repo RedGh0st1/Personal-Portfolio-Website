@@ -111,25 +111,29 @@
       "id": "1",
       "title": "Out&Abt",
       "src": "https://img.icons8.com/color/48/000000/shopping-cart.png",
-      "description": "An e-commerce website that allows users to buy and sell products."
+      "description": "An e-commerce website that allows users to buy and sell products.",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "id": "2",
       "title": "Budget App",
       "src": "https://img.icons8.com/color/48/000000/partly-cloudy-day--v2.png",
-      "description": "A budget management app that helps users track their income and expenses."
+      "description": "A budget management app that helps users track their income and expenses.",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "id": "3",
       "title": "Unknown Yet",
       "src": "https://img.icons8.com/color/48/000000/portfolio.png",
-      "description": "A personal portfolio website to showcase my skills and projects."
+      "description": "A personal portfolio website to showcase my skills and projects.",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "id": "4",
       "title": "FS-WKLy (In Progress)",
-      "src": "https://img.icons8.com/color/48/000000/calculator.png",
-      "description": "A weekly planner app currently under development."
+      "src": "https://img.icons8.com/color/48/000000/calculator.pngf",
+      "description": "A weekly planner app currently under development.",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "cloud_projects": [
@@ -137,19 +141,22 @@
       "id": "1",
       "title": "3-Tier Architecture Presentation",
       "src": "https://img.icons8.com/color/48/000000/cloud.png",
-      "description": "Designed and deployed a scalable 3-Tier Architecture using AWS services like EC2, RDS, and S3."
+      "description": "Designed and deployed a scalable 3-Tier Architecture using AWS services like EC2, RDS, and S3.",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "id": "2",
       "title": "Serverless Application",
       "src": "https://img.icons8.com/color/48/000000/server.png",
-      "description": "Developed a serverless application using AWS Lambda and API Gateway."
+      "description": "Developed a serverless application using AWS Lambda and API Gateway.",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "id": "3",
       "title": "CloudFormation Automation",
       "src": "https://img.icons8.com/color/48/000000/automation.png",
-      "description": "Automated the deployment of cloud infrastructure using AWS CloudFormation."
+      "description": "Automated the deployment of cloud infrastructure using AWS CloudFormation.",
+      "link": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ]
 }
