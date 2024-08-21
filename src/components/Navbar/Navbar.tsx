@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="aboutSection"
+              to="about"
               className="navbar-content"
             >
               About
@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="skillSection"
+              to="skills"
               className="navbar-content"
             >
               Skills
@@ -116,7 +116,7 @@ const Navbar: React.FC = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="projectsSection"
+              to="projects"
               className="navbar-content"
             >
               Projects
@@ -130,7 +130,7 @@ const Navbar: React.FC = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="projectsSection"
+              to="Blogs"
               className="navbar-content"
             >
               Blogs
@@ -144,7 +144,7 @@ const Navbar: React.FC = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              to="projectsSection"
+              to="contacts"
               className="btn-btn-outline-primary"
             >
               Contact

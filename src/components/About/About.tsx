@@ -1,5 +1,5 @@
-import Github from "../About/Github/Github";
 import "./About.css";
+import Github from "./Github/Github";
 
 const About: React.FC = () => {
   return (

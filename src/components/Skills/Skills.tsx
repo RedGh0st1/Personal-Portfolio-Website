@@ -3,7 +3,7 @@ import "./Skills.css";
 
 const Skills: React.FC = () => {
   return (
-    <section id="myskills" className="skills--section">
+    <section id="skills" className="skills--section">
       <div className="skills--section--container">
         <p className="section--title"> Skills</p>
         <h3 className="skills--section--heading">

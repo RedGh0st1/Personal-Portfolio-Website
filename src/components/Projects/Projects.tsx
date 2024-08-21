@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <section id="projectsSection" className="projects--section">
+    <section id="projects" className="projects--section">
       <div className="projects--section--container">
         <div className="projects--container">
           <p className="section--title">Projects</p>

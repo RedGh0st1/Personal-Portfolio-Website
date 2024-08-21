@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 114.6px;
-  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
   padding: 133.3px 85.3px;
   background-color: var(--white);
+  flex-direction: column;
 }
 
 .about--section--img > img {
@@ -14,8 +14,6 @@
 }
 
 .about--section--heading {
-  display: grid;
   padding: 10px;
   flex-direction: column;
-  align-items: start;
 }
