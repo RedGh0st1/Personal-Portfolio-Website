@@ -3,15 +3,17 @@ import "./WebProjectCard.css";
 const WebProjectCard: React.FC<{ project: Project }> = ({ project }) => (
   <section id="webprojectcard" className="webprojectcard--section">
     <div className="webprojectcard--container">
-      <img src={project.src} className="card-img-top" alt={project.name} />
-    </div>
-    <div className="webprojectcard-section-container">
-      <div className="webprojectcard--section--body">
-        <h5 className="card-title">{project.title}</h5>
-        <p className="card-text">{project.description}</p>
-        <a href={project.link} className="btn btn-primary">
-          Visit Project
-        </a>
+      <div className="webprojectcard--section--img">
+        <img src={project.src} className="card--img--top" alt={project.title} />
+      </div>
+      <div className="webprojectcard--section--container">
+        <div className="webprojectcard--section--card--content">
+          <h5 className="webprojectcard--section--title">{project.title}</h5>
+          <p className="webproject--section--text">{project.description}</p>
+          <a href={project.link} className="btn btn-primary">
+            Github Respository
+          </a>
+        </div>
       </div>
     </div>
   </section>

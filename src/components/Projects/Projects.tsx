@@ -5,7 +5,7 @@ import CloudProjectCard from "./CloudProjectCard/CloudProjectCard";
 
 // Interfaces for Data Types:
 // Project Interface: Defines the structure of each project, including optional fields link and github.
-interface Project {
+export interface Project {
   title: string;
   description: string;
   src: string;
