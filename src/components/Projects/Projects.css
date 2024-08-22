@@ -1,0 +1,25 @@
+.projects--section {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 85px;
+}
+
+.projects--container {
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+  border: 12px solid red;
+  background-color: rgb(0, 157, 255);
+}
+
+.projects--section--heading {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 12px solid rgb(0, 255, 4);
+}
+
+.projects--section--cards {
+  border: 12px solid rgb(4, 0, 255); /* Example border */
+  /* Use grid to place cards next to each other */
+}

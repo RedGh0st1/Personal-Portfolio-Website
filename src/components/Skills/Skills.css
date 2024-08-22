@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 0px;
   background-color: var(--white);
 }
 .skills--section--heading {
@@ -59,12 +59,4 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 45px;
-}
-
-.skills--section--description {
-  color: var(--black);
-  font-size: 21.3px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
 }

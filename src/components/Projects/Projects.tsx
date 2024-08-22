@@ -57,19 +57,17 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className="projects--section">
-      <div className="projects--section--container">
-        <div className="projects--container">
-          <p className="section--title">Projects</p>
-          <h2 className="projects--section--heading">Web Projects</h2>
-          {/* This div contains the web projects content */}
-          <div className="web--projects--section">
-            {renderWebProjectContent()}
-          </div>
-          <h2 className="projects--section--heading">Cloud Projects</h2>
-          {/* This div contains the cloud projects content */}
-          <div className="cloud--projects--section">
-            {renderCloudProjectsContent()}
-          </div>
+      <div className="projects--container">
+        <p className="section--title">Projects</p>
+        <h2 className="projects--section--heading">Web Projects</h2>
+        {/* This div contains the web projects content */}
+        <div className="projects--section--cards">
+          {renderWebProjectContent()}
+        </div>
+        <h2 className="projects--section--heading">Cloud Projects</h2>
+        {/* This div contains the cloud projects content */}
+        <div className="projects--section--cards">
+          {renderCloudProjectsContent()}
         </div>
       </div>
     </section>
