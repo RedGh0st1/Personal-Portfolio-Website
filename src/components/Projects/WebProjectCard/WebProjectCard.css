@@ -1,11 +1,9 @@
 .webprojectcard--section {
-  display: block;
   justify-content: center;
   align-items: flex-start;
 }
 
 .webprojectcard--container {
-  display: block;
   width: 100%;
   max-width: 300px;
   border: 2px solid gray;
