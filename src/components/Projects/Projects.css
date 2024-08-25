@@ -1,26 +1,45 @@
 .projects--section {
-  display: grid;
-  padding: 60px 45px;
+  padding: 0px 90px;
   background-color: var(--white);
-  width: 100%;
 }
+
 .projects--container {
   display: grid;
-  flex-direction: column;
   gap: 10px;
   border: 12px solid red;
-  background-color: rgb(0, 157, 255);
 }
 
+/* Center the subsection headings (Web Projects, Cloud Projects) */
 .projects--section--heading {
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   border: 12px solid rgb(0, 255, 4);
+  margin: 24px 0;
+  color: var(--darkblue);
 }
 
-.projects--section--cards {
-  border: 12px solid rgb(4, 0, 255); /* Example border */
-  /* Use grid to place cards next to each other */
-  background: var(--bg-shade);
+/* Grid container for the web project cards */
+
+.web--projects--section--cards {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+  border: 12px solid rgb(4, 0, 255); /* shows the grid border */
+  gap: 20px; /* space between the cards */
+  padding: 20px; /*  Padding around the grid */
+  transition: transform 0.3s ease;
+}
+
+/* Grid container for the web project cards */
+
+.cloud--projects--section--cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+  border: 12px solid rgb(0, 102, 255); /* shows the grid border */
+  gap: 20px; /* space between the cards */
+  padding: 20px; /*  Padding around the grid */
+  transition: transform 0.3s ease;
+}
+
+.projects--section--cards:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
 }
