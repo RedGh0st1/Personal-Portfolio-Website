@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--bg-shade);
-  padding: 133.333px, 85.333px, 133.333px;
+  padding: 133px, 85px, 133px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;

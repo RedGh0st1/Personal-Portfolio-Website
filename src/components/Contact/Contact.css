@@ -1,0 +1,41 @@
+.contact--section {
+  display: flex;
+  padding: 70px 55px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--white);
+  width: 100%;
+}
+
+.contact--form--section {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(6, auto);
+  width: 40%;
+  row-gap: 12px;
+}
+
+.form--container {
+  display: grid;
+  row-gap: 5px;
+  margin: 10px;
+  padding: 20px;
+  background-color: var(--bg-shade);
+  border-radius: 10.6px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contact--label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact--input {
+  display: grid;
+  font-family: "Roboto";
+  padding: 6px;
+  align-items: center;
+}

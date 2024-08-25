@@ -4,20 +4,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 0px;
   background-color: var(--white);
+  width: 100%;
 }
-.skills--section--heading {
-  color: var(--heading-color);
-  font-size: 54px;
-  font-weight: 600;
-  line-height: 67px;
-}
+
 .skills--section--container {
   display: grid;
   justify-content: center;
   align-items: flex-start;
-  gap: 40.6px;
+  gap: 10px;
   grid-template-columns: repeat(6, 2fr);
 }
 .skills--section--card {
@@ -25,7 +20,7 @@
   padding: 30px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
+  gap: 20px;
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shade);
@@ -51,9 +46,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
   align-self: stretch;
 }
+
 .skills--section--title {
   color: var(--heading-color);
   font-size: 20px;

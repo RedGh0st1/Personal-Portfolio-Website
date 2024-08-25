@@ -1,10 +1,9 @@
 .projects--section {
-  display: flex;
-  flex-direction: column;
-  padding: 15px 85px;
+  display: grid;
+  padding: 60px 45px;
   background-color: var(--white);
+  width: 100%;
 }
-
 .projects--container {
   display: grid;
   flex-direction: column;

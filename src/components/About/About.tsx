@@ -9,8 +9,8 @@ const About: React.FC = () => {
       </div>
       <div className="about-section-content-box">
         <div className="about-section-content">
-          <p className="section--title">About</p>
-          <h2 className="about--section--heading">About Me</h2>
+          <h2 className="section--title">About</h2>
+          <h4 className="about--section--heading">About Me</h4>
           <p className="hero-description">
             Hi there! I’m Lennie Nurse, and my journey into becoming a Software
             Engineer has been nothing short of an exciting adventure. It all
