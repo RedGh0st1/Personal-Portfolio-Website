@@ -5,12 +5,13 @@ const Footer: React.FC = () => {
   const year = new Date().getFullYear();
   return (
     <footer className="footer--container">
+      <hr className="footer--border" />
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo.svg" alt="footer-Logo" />
         </div>
         <div className="footer--copyright">
-          <p>Copyright © {year} Lennie Nurse. All rights reserved.</p>
+          <p>© {year} Lennie Nurse. All rights reserved.</p>
         </div>
 
         <div className="footer--social--icon">
