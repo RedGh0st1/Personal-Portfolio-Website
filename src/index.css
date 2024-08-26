@@ -17,8 +17,6 @@ body {
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
-  /* margin: 0; */
-  /* box-sizing: border-box; */
   background-color: var(--white);
 }
 

@@ -1,6 +1,8 @@
 .projects--section {
+  margin-bottom: 10px;
   padding: 0px 90px;
   background-color: var(--white);
+  margin-top: 5px;
 }
 
 .projects--container {
@@ -15,18 +17,17 @@
   border: 12px solid rgb(0, 255, 4);
   margin: 24px 0;
   color: var(--darkblue);
+  margin-top: 1px;
 }
 
 /* Grid container for the web project cards */
 
 .web--projects--section--cards {
   display: grid;
-
   grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
   border: 12px solid rgb(4, 0, 255); /* shows the grid border */
   gap: 20px; /* space between the cards */
   padding: 20px; /*  Padding around the grid */
-  transition: transform 0.3s ease;
 }
 
 /* Grid container for the web project cards */
