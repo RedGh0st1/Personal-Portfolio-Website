@@ -1,6 +1,6 @@
 .cloudprojectcard--section--container {
   background-color: #fff;
-  border: 1px solid gray;
+  border: 2px solid gray;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -13,4 +13,7 @@
   align-items: flex-start;
   align-self: stretch;
   gap: 10px;
+}
+.cloudprojectcard--section--container:hover {
+  transition: translateY(-15px);
 }

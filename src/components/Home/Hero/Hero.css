@@ -2,10 +2,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--bg-shade);
-  padding: 133px, 85px;
+  padding: 133px, 95px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
+  margin: 20px 35px;
 }
 
 .hero-content-box {

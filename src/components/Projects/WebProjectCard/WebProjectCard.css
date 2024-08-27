@@ -12,3 +12,7 @@
   align-self: stretch;
   gap: 10px;
 }
+
+.webprojectcard--section--container:hover {
+  transition: translateY(-15px);
+}
