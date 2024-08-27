@@ -1,14 +1,5 @@
-.webprojectcard--section {
-  display: grid;
-  gap: 20px;
+.webprojectcard--section--container {
+  background-color: #fff;
+  border: 1px solid gray;
   padding: 20px;
-  justify-content: center;
-  border: 1px solid red;
-}
-
-.webprojectcard--container {
-  grid-template-columns: repeat(3, 1fr);
-  border: 2px solid gray;
-  border-radius: 10px;
-  padding: 10px;
 }

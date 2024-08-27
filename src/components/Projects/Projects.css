@@ -1,46 +1,28 @@
 .projects--section {
-  margin-bottom: 10px;
   padding: 0px 90px;
   background-color: var(--white);
-  margin-top: 5px;
+  margin: 30px;
 }
 
 .projects--container {
   display: grid;
-  gap: 10px;
-  border: 12px solid red;
+  gap: 20px;
+  border: 1px solid royalblue;
+  padding: 0px 25px;
 }
 
-/* Center the subsection headings (Web Projects, Cloud Projects) */
 .projects--section--heading {
   text-align: center;
-  border: 12px solid rgb(0, 255, 4);
-  margin: 24px 0;
-  color: var(--darkblue);
-  margin-top: 1px;
+  margin: 0px;
 }
 
-/* Grid container for the web project cards */
-
-.web--projects--section--cards {
+.web--projects--content,
+.cloud--projects--content {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
-  border: 12px solid rgb(4, 0, 255); /* shows the grid border */
   gap: 20px; /* space between the cards */
-  padding: 20px; /*  Padding around the grid */
-}
-
-/* Grid container for the web project cards */
-
-.cloud--projects--section--cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
-  border: 12px solid rgb(0, 102, 255); /* shows the grid border */
-  gap: 20px; /* space between the cards */
-  padding: 20px; /*  Padding around the grid */
-  transition: transform 0.3s ease;
-}
-
-.projects--section--cards:hover {
-  transform: translateY(-5px); /* Lift the card slightly on hover */
+  padding: 20px; /* Padding around the grid */
+  margin: 15px;
+  border: 2px solid gray;
+  border-radius: 10px;
 }

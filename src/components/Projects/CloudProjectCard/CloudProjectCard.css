@@ -1,14 +1,8 @@
-.cloudprojectcard--section {
-  display: grid;
-  gap: 20px;
+.cloudprojectcard--section--container {
+  background-color: #fff;
+  border: 1px solid gray;
   padding: 20px;
-  justify-content: center;
-  border: 1px solid red;
-}
-
-.cloudprojectcard--container {
-  grid-template-columns: repeat(3, 1fr);
-  border: 2px solid gray;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 10px;
+  transition: transform 0.3 ease;
 }
