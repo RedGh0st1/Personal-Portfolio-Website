@@ -2,5 +2,18 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(221, 214, 214);
+  border: 2px solid red;
+  border-radius: 2px;
+}
+
+.github--activity {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px;
+  color: black;
 }

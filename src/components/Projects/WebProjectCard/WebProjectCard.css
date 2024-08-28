@@ -1,18 +1,57 @@
 .webprojectcard--section--container {
-  background-color: #fff;
-  border: 1px solid gray;
+  background-color: var(--bg-shade);
   padding: 20px;
   border-radius: 10px;
   transition: transform 0.3 ease;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 20px;
+  align-items: center; /* Center items horizontally */
 }
+
+.webprojectcard--section--image {
+  background-color: white;
+  border-radius: 5px;
+  width: 35%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.webprojectcard--section--title,
+h5 {
+  gap: 10px;
+  margin: 1px;
+  color: var(--darkblue);
+}
+
+.webprojectcard--section--image,
+.car--img {
+  max-width: 100%;
+  border-radius: 8px;
+  height: auto;
+  justify-content: center;
+}
+
 .webprojectcard--section--card--content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  align-self: stretch;
+  text-align: left;
+  width: 100%;
   gap: 10px;
 }
 
 .webprojectcard--section--container:hover {
-  transition: translateY(-15px);
+  border-bottom: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
+  color: var(--primary);
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.webprojectcard--section--container:hover .webprojectcard--section--title {
+  transition: translateY(-5px);
+  color: var(--primary);
+  transition: color 0.3s ease, transform 0.3s ease; /* change color slowly */
 }

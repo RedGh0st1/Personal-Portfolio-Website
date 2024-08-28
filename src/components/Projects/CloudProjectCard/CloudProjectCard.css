@@ -1,10 +1,9 @@
 .cloudprojectcard--section--container {
-  background-color: #fff;
-  border: 2px solid gray;
+  background-color: var(--bg-shade);
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: transform 0.3 ease;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 
 .cloudprojectcard--section--card--content {

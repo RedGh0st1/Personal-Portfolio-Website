@@ -12,7 +12,7 @@ const CloudProjectCard: React.FC<{ project: Project }> = ({ project }) => (
     <div className="cloudprojectcard--section--card--content">
       <h5 className="cloudprojectcard--section--title">{project.title}</h5>
       <p className="cloudprojectcard--section--text">{project.description}</p>
-      <a href={project.link} className="btn btn-primary">
+      <a href={project.link} className="github--btn">
         Github Respository
       </a>
     </div>
