@@ -1,11 +1,14 @@
-import React from "react";
+import { scroller } from "react-scroll";
 import "./Hero.css";
 // Hero component
 // This component renders the hero section of the website
 // It contains the hero title, description, and a button to view my work
 
 const Hero: React.FC = () => {
-  console.log("Hero component rendered");
+  const handleScrollToContacts = () => {
+    // Logic to scroll to the contacts section
+    scroller.scrollTo("contacts", { smooth: true, duration: 500 });
+  };
   return (
     <section id="heroSection" className="hero-section-container">
       {/* This div contains the hero content */}
@@ -14,7 +17,7 @@ const Hero: React.FC = () => {
       <div className="hero-content-box">
         {/* This div contains the hero content */}
         <div className="hero-content">
-          <p className="section--title">Hi!! I'm Lennie Nurse</p>
+          <p className="section--title"> Hi!! I'm Lennie Nurse</p>
           <h1 className="hero-section-title">
             <span className="hero-title-color">
               Full Stack Developer <br />
@@ -28,7 +31,11 @@ const Hero: React.FC = () => {
           </p>
         </div>
         {/* This button will take the user to the specific section of the website */}
-        <button className="hero-button">Get In Touch</button>
+        <div className="hero-btn">
+          <button onClick={handleScrollToContacts} className="btn">
+            Get In Touch
+          </button>
+        </div>
       </div>
       {/* This div contains the hero picture of the developer */}
       <div className="hero-pic">
