@@ -5,8 +5,8 @@ const CloudProjectCard: React.FC<{ project: Project }> = ({ project }) => (
     id="cloudprojectcard"
     className="cloudprojectcard--section--container"
   >
-    <div className="cloudproject--section--img">
-      <img src={project.src} className="card--img--top" alt={project.title} />
+    <div className="cloudprojectcard--section--image">
+      <img src={project.src} className="card--img" alt={project.title} />
     </div>
 
     <div className="cloudprojectcard--section--card--content">

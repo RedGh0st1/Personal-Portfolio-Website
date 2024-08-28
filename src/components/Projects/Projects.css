@@ -1,11 +1,11 @@
 .projects--section {
-  padding: 0px 90px;
-  margin: 30px;
+  padding: 10px 90px;
+  margin: 0px;
 }
 
 .projects--container {
   display: grid;
-  gap: 20px;
+  gap: 2px;
   border: 1px solid royalblue;
   padding: 0px 25px;
 }
