@@ -6,7 +6,7 @@
   padding: 25px 70px;
   background-color: var(--white);
   flex-direction: column;
-  border: 3px solid rgb(255, 208, 0);
+  /* border: 3px solid rgb(255, 208, 0); */
   margin: 20px;
 }
 

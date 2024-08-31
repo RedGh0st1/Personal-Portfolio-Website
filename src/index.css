@@ -1,10 +1,11 @@
 :root {
-  --primary: #f06413;
-  --heading-color: #282938;
-  --bg-shade: #ccdde4;
-  --darkblue: #1c1e53;
-  --black: #000000;
-  --white: #e8e0e0;
+  --primary: #d90429; /* yes*/
+  --heading-color: #2b2d42; /* yes */
+  --bg-shade: #8d99ae; /* YES */
+  --darkblue: #1c1e53; /* no */
+  --black: #000000; /* no */
+  --white: #edf2f4; /* YES  */
+  --orange: #ffc125;
 }
 
 * {

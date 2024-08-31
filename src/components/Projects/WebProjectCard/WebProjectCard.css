@@ -44,14 +44,14 @@ h5 {
 }
 
 .webprojectcard--section--container:hover {
-  border-bottom: 2px solid var(--primary);
-  border-right: 2px solid var(--primary);
-  color: var(--primary);
+  border-bottom: 2px solid var(--orange);
+  border-right: 2px solid var(--orange);
+  color: var(--orange);
   transform: translateY(-5px); /* Slight lift on hover */
 }
 
 .webprojectcard--section--container:hover .webprojectcard--section--title {
   transition: translateY(-5px);
-  color: var(--primary);
+  color: var(--orange);
   transition: color 0.3s ease, transform 0.3s ease; /* change color slowly */
 }
