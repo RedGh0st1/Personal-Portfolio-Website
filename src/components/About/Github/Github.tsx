@@ -3,9 +3,10 @@ import GitHubCalendar from "react-github-calendar";
 import "./Github.css";
 
 const Github: React.FC = () => {
-  // const customTheme = {
-  //   light: ["#f0f0f0", "#e2e2e2", "#d4d4d4", "#c6c6c6", "#b8b8b8"],
-  // };
+  //
+  const customTheme: { light: string[] } = {
+    light: ["#e0e0e0", "#b0b0b0", "#808080", "#505050", "#ff0000"],
+  };
 
   return (
     <div className="github--calendar--container">
@@ -16,7 +17,7 @@ const Github: React.FC = () => {
         blockSize={15}
         blockMargin={4}
         fontSize={16}
-        // theme={customTheme}
+        theme={customTheme}
       />
     </div>
   );
