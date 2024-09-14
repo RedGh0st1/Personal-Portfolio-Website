@@ -14,5 +14,5 @@
   justify-content: center;
   gap: 20px;
   margin: 15px;
-  color: black;
+  color: var(--darkblue);
 }
